@@ -53,14 +53,12 @@ const Footer = () => {
                     </div>
                     <div className="footer-col-4">
                         <ul className="social-icons">
-                            <li className="fab fa-facebook-f"></li>
-                            <li className="fab fa-twitter"></li>
-                            <li className="fab fa-instagram"></li>
+                            <a href="/"><li className="fab fa-facebook-f"></li></a>
+                            <a href="/"><li className="fab fa-twitter"></li></a>
+                            <a href="/"><li className="fab fa-instagram"></li></a>
+                            <a href="https://github.com/ilkhomabdugafurov/react-huddle-landing-v1"><li className="fab fa-github"></li></a>
                         </ul>
                     </div>
-                </div>
-                <div className="copy">
-                    &copy; Copyright 2018 Huddle. All rights reserved.
                 </div>
             </div>
         </footer>
